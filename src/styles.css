@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --imf-fondo: url("assets/images/anton-darius-ebHCU8n7G38-unsplash.jpg");
+
+  --background: #f3f3f3;
+  --black: #000000;
+  --salmon: salmon;
+  --shadow-1: #1f1f1f1f;
+  --shadow-2: #1f1f1f2f;
+  --shadow-4: #1f1f1f4f;
+  --shadow-6: #1f1f1f6f;
+  --shadow-8: #1f1f1f8f;
+  --shadow-10: #1f1f1fAf;
+
+  --font-white: #fafafa;
+  --font-white2: #f0f0f0;
+  --font-light-grey: #999999;
+  --font-grey: #727272;
+  --font-black: #1a1a1a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  width: 100vw;
+  max-width: 100%;
+
+  font-family: 'Poppins', sans-serif;
+
+  /* background-image: var(--imf-fondo);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed; */
+
+}
+
+html {
+  scroll-behavior: smooth;
+}

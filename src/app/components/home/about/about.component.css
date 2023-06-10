@@ -1,0 +1,150 @@
+section {
+  width: 100vw;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: var(--background);
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  padding-top: 10vh;
+}
+
+.container {
+  min-height: 70vh;
+  max-height: 80vh;
+  min-width: 50vw;
+  max-width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: rgb(159, 91, 223); */
+}
+
+.textcontain {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--font-black);
+  /* background-color: red; */
+  
+}
+
+.textcontain .saludo {
+  /* margin-left: 20px; */
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  /* color: var(--font-grey); */
+  color: var(--salmon);
+}
+
+.textcontain .mainsaludo {
+  font-size: 3.5em;
+  font-family:'Times New Roman', Times, serif;
+  color: var(--font-black);
+}
+
+.textcontain .maindesc {
+  font-size: 1.2em;
+  /* font-family:'Times New Roman', Times, serif; */
+  color: var(--font-black);
+}
+
+.aboutskills {
+  height: 50vh;
+  /* height: auto; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background-color: yellow; */
+}
+
+.about {
+  height: 35vh;
+  /* height: 50%; */
+  padding: 20px 0px;
+  /* background-color: darkolivegreen; */
+}
+
+.about h3, .skills h3 {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 2.2em;
+}
+
+.skills {
+  height: 35vh;
+  /* height: 50%; */
+  padding: 20px 0px;
+}
+
+.skillspan {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skillspan span {
+  font-variant: small-caps;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: var(--font-black);
+  background-color: var(--shadow-1);
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+
+/* ------------------------------------- Responsive Design ----------------------------------- */
+
+@media screen and (min-width: 1400px) {
+  .about h3, .skills h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.5em;
+  }
+
+  .about p {
+    font-size: 1.3em;
+    padding: 20px 0px;
+  }
+
+  .skillspan {
+    padding: 20px 0px;
+  }
+
+  .skills span {
+    font-size: 1.4em;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  section {
+    /* min-height: 100vh; */
+    height: 1000px;
+    padding-top: 0vh;
+  }
+
+  .container {
+    min-height: 70vh;
+    max-height: 150vh;
+    min-width: 80vw;
+    max-width: 90vw;
+    /* background-color: rgb(183, 223, 91); */
+    margin: 16vh auto;
+  }
+
+  .about {
+    margin-bottom: 50px;
+  }
+
+}
