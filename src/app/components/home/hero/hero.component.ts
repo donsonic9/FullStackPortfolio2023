@@ -11,4 +11,8 @@ export class HeroComponent {
     document.getElementById("aboutid")?.scrollIntoView({behavior: 'smooth'});
   }
 
+  toWorks() {
+    document.getElementById("projectsid")?.scrollIntoView({behavior: 'smooth'});
+  }
+
 }

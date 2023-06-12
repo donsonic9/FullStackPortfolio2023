@@ -44,8 +44,8 @@ section {
 .container {
   min-height: 40vh;
   max-height: 50vh;
-  min-width: 50vw;
-  max-width: 70vw;
+  min-width: 70vw;
+  max-width: 80vw;
   display: flex;
   flex-direction: row;
   /* background-color: rgb(159, 91, 223); */
@@ -89,7 +89,7 @@ section {
 .buttons button {
   width: 170px;
   height: 50px;
-  margin: 10px 20px;
+  margin: 10px 0px;
 
   background-color: transparent;
   border: 2px solid var(--font-white2);
@@ -184,6 +184,10 @@ section {
     justify-content: center;
     align-items: center;
     /* background-color: green; */
+  }
+
+  .buttons button {
+    margin: 10px 20px;
   }
 
 }

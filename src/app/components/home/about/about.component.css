@@ -15,8 +15,8 @@ section {
 .container {
   min-height: 70vh;
   max-height: 80vh;
-  min-width: 50vw;
-  max-width: 70vw;
+  min-width: 70vw;
+  max-width: 80vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +36,6 @@ section {
 }
 
 .textcontain .saludo {
-  /* margin-left: 20px; */
   font-size: 1.2em;
   font-weight: 600;
   letter-spacing: 2px;
@@ -59,7 +58,6 @@ section {
 
 .aboutskills {
   height: 50vh;
-  /* height: auto; */
   display: flex;
   flex-direction: row;
   align-items: center;

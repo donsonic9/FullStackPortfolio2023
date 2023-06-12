@@ -49,7 +49,7 @@ export class NavbarComponent {
   }
 
   toWorks() {
-    document.getElementById("serviciosid")?.scrollIntoView({behavior: 'smooth'});
+    document.getElementById("projectsid")?.scrollIntoView({behavior: 'smooth'});
   }
 
   toContacto() {
