@@ -1,5 +1,6 @@
 import { Component, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
+import { DataPortfolioService } from 'src/app/services/data-portfolio.service';
 
 @Component({
   selector: 'app-navbar',
@@ -8,7 +9,17 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent {
 
-  constructor (private router:Router) { }
+  porti: any;
+
+  constructor (private router:Router, private dataporti:DataPortfolioService) { }
+
+  ngOnInit(): void {
+    this.dataporti.obtenerDatos().subscribe(data => {
+      this.porti = data
+    });
+  }
+
+
 
   // To change the background color of the navbar on click
   isNavbarBlack: boolean = false;
@@ -24,35 +35,37 @@ export class NavbarComponent {
     while(!this.isNavbarBlack) {
       this.isNavbarBlack = !this.isNavbarBlack;
     }
-    
-    
   }
 
-  handleOptionClick() {
-    this.isNavbarBlack = false;
-  }
+  // handleOptionClick() {
+  //   this.isNavbarBlack = false;
+  // }
 
   // reloads the website
   onReload() {
     document.getElementById("topid")?.scrollIntoView({behavior: 'smooth'});
-    location.reload();
     // this.router.navigate(['']);
+    location.reload();
   }
 
   // las funciones "to" son para linkear los botones de la navbar a las secciones de la pagina.
   toTop() {
+    this.router.navigate(['']);
     document.getElementById("topid")?.scrollIntoView({behavior: 'smooth'});
   }
 
   toAbout() {
+    this.router.navigate(['']);
     document.getElementById("aboutid")?.scrollIntoView({behavior: 'smooth'});
   }
 
   toWorks() {
+    this.router.navigate(['']);
     document.getElementById("projectsid")?.scrollIntoView({behavior: 'smooth'});
   }
 
   toContacto() {
+    this.router.navigate(['']);
     document.getElementById("contactoid")?.scrollIntoView({behavior: 'smooth'});
   }
 

@@ -1,17 +1,22 @@
 <section id="aboutid">
   <div class="container row">
-    <div class="textcontain col-12">
-      <h4 class="saludo">about</h4>
-      <h2 class="mainsaludo">About me!</h2>
-      <h3 class="maindesc">Get to know more about me</h3>
+    <div class="textcontain">
+      <h4 *ngIf="porti" class="saludo">{{porti.about.saludo}}</h4>
+      <h2 *ngIf="porti" class="mainsaludo">{{porti.about.mainsaludo}}</h2>
+      <h3 *ngIf="porti" class="maindesc">{{porti.about.maindesc}}</h3>
     </div>
-    <div class="aboutskills row col-12">
+    <!-- <div class="imgprofile">
+      <img class="img-fluid" src="./assets/images/profile.jpg" alt="Alexander Repollo's image">
+    </div> -->
+    <div class="aboutskills row">
       <div class="about col-12 col-md-6">
-        <h3>About me: </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, beatae officia? Aut accusantium, repudiandae sunt deleniti tenetur reprehenderit enim et excepturi incidunt vitae odio vel soluta veritatis molestiae repellendus eum.</p>
+        <h3 *ngIf="porti">{{porti.about.aboutTitle}}</h3>
+        <p *ngIf="porti">{{porti.about.aboutDesc}}</p>
+        <p *ngIf="porti">{{porti.about.aboutDesc2}}</p>
+        <p *ngIf="porti">{{porti.about.aboutDesc3}}</p>
       </div>
       <div class="skills col-12 col-md-5">
-        <h3>Skills: </h3>
+        <h3 *ngIf="porti">{{porti.about.skillsTitle}}</h3>
         <div class="skillspan">
           <span>html</span>
           <span>css</span>
@@ -22,6 +27,12 @@
           <span>mysql</span>
           <span>java</span>
           <span>spring boot</span>
+          <span>firebase</span>
+          <span>git</span>
+          <span>github</span>
+        </div>
+        <div class="cvpdf">
+          <a download="CVRepolloAlexander2023" href="./assets/pdf/CVRepolloAlexander2023.v5.pdf">download cv</a>
         </div>
       </div>
     </div>

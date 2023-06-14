@@ -4,13 +4,14 @@
   <div class="infocontain">
     <div class="container row">
       <div class="textcontain col-md-9">
-        <h3 class="saludo">welcome!</h3>
-        <h2 class="mainsaludo">I am Alexander Repollo.</h2>
-        <h2 class="maindesc">Full Stack Web Developer.</h2>
+        <h3 *ngIf="porti" class="saludo">{{porti.home.saludo}}</h3>
+        <h2 *ngIf="porti" class="mainsaludo">{{porti.home.mainsaludo}}</h2>
+        <h2 *ngIf="porti" class="maindesc">{{porti.home.maindesc}}</h2>
+        <h3 *ngIf="porti" class="location"><i class="bi bi-geo-alt-fill"></i> buenos aires, argentina</h3>
       </div>
       <div class="buttons col-md-3">
         <button (click)="toWorks()">projects</button>
-        <button (click)="toAbout()" >about me</button>
+        <button (click)="toAbout()">about me</button>
       </div>
     </div>
     
@@ -18,7 +19,7 @@
   
   <div class="ownermention" id="seraquefunciona">
     <p>
-      Foto de <a href="https://unsplash.com/@thesollers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank"> Anton Darius</a> en <a href="https://unsplash.com/es/fotos/ebHCU8n7G38?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank"> Unsplash</a>
+      Photo by <a *ngIf="porti" [href]="porti.home.photoowner" target="_blank"> Anton Darius</a> on <a *ngIf="porti" [href]="porti.home.photowebsite" target="_blank"> Unsplash</a>
     </p>
   </div>
 </section>

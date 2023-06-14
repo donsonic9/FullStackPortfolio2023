@@ -94,6 +94,11 @@ section {
   font-size: 2.2em;
 }
 
+.infoproject p {
+  color: var(--font-grey);
+  font-size: 1.1em;
+}
+
 .seemore {
   display: flex;
   flex-direction: column;
@@ -102,10 +107,13 @@ section {
   /* background-color: green; */
 }
 
-.seemore button {
+.seemore a {
   width: 170px;
   height: 50px;
   margin: 10px 0px;
+  padding: 2px 0 0 0;
+
+  text-align: center;
 
   background-color: transparent;
   border: 2px solid var(--black);
@@ -114,10 +122,11 @@ section {
   font-variant: small-caps;
   font-weight: 500;
   letter-spacing: 2px;
+  text-decoration: none;
   transition: all 0.2s linear;
 }
 
-.seemore button:hover {
+.seemore a:hover {
   color: var(--font-white);
   background-color: var(--black);
 }

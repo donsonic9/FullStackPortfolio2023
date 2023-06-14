@@ -1,0 +1,62 @@
+{
+  "navbar": {
+    "img_navbar": "assets/images/AR-logo-v3-removebg-preview-navbar.png"
+  },
+  "home": {
+    "saludo": "welcome!",
+    "mainsaludo": "I am Alexander Repollo",
+    "maindesc": "Full Stack Web Developer",
+    "photoowner": "https://unsplash.com/@thesollers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    "photowebsite": "https://unsplash.com/es/fotos/ebHCU8n7G38?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+  },
+  "about": {
+    "saludo": "about",
+    "mainsaludo": "About me!",
+    "maindesc": "Get to know more about me",
+    "aboutTitle": "Who I am",
+    "aboutDesc": "Hello! I'm Alex, a Full Stack Web Developer Jr. Born in New Jersey, USA, and rised in Buenos Aires. With a passion for new technologies, including Artificial Intelligence, cryptocurrencies, and more, I merge my interests and technical skills to create innovative web applications.",
+    "aboutDesc2": "On my free time, I like to research about cars, AI, and spend time with family and friends. I also like to work on my personal development, being self-criticism and self-motivation fundamental parts of my growth as a person.",
+    "aboutDesc3": "I am actively seeking my first IT opportunity to contribute, learn, and grow. As a passionate web developer, I'm eager to kick-start my career and apply my technical expertise. If you have a good oportunity, don't hesitate to contact me!",
+    "skillsTitle": "Skills"
+  },
+  "projects": {
+    "saludo": "works",
+    "mainsaludo": "My projects",
+    "maindesc": "Get to know some of my latest projects!",
+    "proj": [
+      {
+        "name": "Alexander Repollo's Portfolio:",
+        "image": "assets/images/pngwing.comlaptop21st.png",
+        "desc": "My portfolio itself is considered by me as a project, since I had the chance to apply most of the new knowledge I've aquired as web developer. New design techniques, and a more refined version of older projects I've done in the past. ",
+        "extendedDesc": "I am pleased to present my newly redesigned portfolio, which is a reflection of the hard work and invaluable experience I have gained throughout my career as a web developer. It is the result of continuous improvement, exploring new design approaches, and seeking optimal solutions. The design adopts a minimalistic yet effective approach, prioritizing mobile-first principles and user-friendly interactions to ensure a seamless browsing experience. I strive to provide the best possible user experience, and this portfolio is a testament to my ongoing commitment to excellence in web development.",
+        "href": "#",
+        "routerlink": "portfolio"
+      },
+      {
+        "name": "Project co.work RH :",
+        "image": "assets/images/pngwing.comlaptop22nd.png",
+        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, eligendi in tempore perspiciatis atque magni quisquam? Adipisci, ratione id? Nam unde incidunt pariatur quia, at ab ipsa cumque officiis assumenda!",
+        "extendedDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, eligendi in tempore perspiciatis atque magni quisquam? Adipisci, ratione id? Nam unde incidunt pariatur quia, at ab ipsa cumque officiis assumenda!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, eligendi in tempore perspiciatis atque magni quisquam? Adipisci, ratione id? Nam unde incidunt pariatur quia, at ab ipsa cumque officiis assumenda!",
+        "href": "https://coworkrhconsultora.web.app/",
+        "routerlink": "coworkrh"
+      },
+      {
+        "name": "Argentina Programa's project:",
+        "image": "assets/images/pngwing.comlaptop23rd.png",
+        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, eligendi in tempore perspiciatis atque magni quisquam? Adipisci, ratione id? Nam unde incidunt pariatur quia, at ab ipsa cumque officiis assumenda!",
+        "extendedDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, eligendi in tempore perspiciatis atque magni quisquam? Adipisci, ratione id? Nam unde incidunt pariatur quia, at ab ipsa cumque officiis assumenda!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, eligendi in tempore perspiciatis atque magni quisquam? Adipisci, ratione id? Nam unde incidunt pariatur quia, at ab ipsa cumque officiis assumenda!",
+        "href": "https://arprograma-front-end-ds9.web.app/inicio",
+        "routerlink": "arp"
+      }
+    ]
+  },
+  "contact": {
+    "image": "assets/images/AR-logo-v3-removebg-preview-navbar.png",
+    "maindesc": "Do you like what you see? let's get in touch and work together!",
+    "wpp_url": "https://wa.link/3i9a08",
+    "linkedin_url": "https://www.linkedin.com/in/alexander-repollo-5b47841ba/",
+    "github_url": "https://github.com/donsonic9",
+    "instagram_url": "https://www.instagram.com/donsonic9/",
+    "email": "mailto: alexrepollo@outlook.com"
+  }
+}

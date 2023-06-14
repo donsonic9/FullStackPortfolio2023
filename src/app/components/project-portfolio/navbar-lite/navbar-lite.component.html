@@ -1,6 +1,6 @@
 
   <!-- <navbar>botones de navgeacion a la derecha. FIJA</navbar> -->
-  <nav class="navbar navbar-expand-sm fixed-top" [ngClass]="{ 'navbar-black': isNavbarBlack }">
+  <nav class="navbar navbar-expand-sm fixed-top">
     
     <div class="container-fluid">
       <a class="nav-logo" (click)="onReload()">
@@ -8,7 +8,7 @@
       </a>
       <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-        aria-label="Toggle navigation" (click)="toggleNavbarColor()">
+        aria-label="Toggle navigation" >
         <i class="bi bi-list"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -21,4 +21,5 @@
       </div>
     </div>
   </nav>
+
 

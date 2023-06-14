@@ -3,11 +3,11 @@ import { Router } from '@angular/router';
 import { DataPortfolioService } from 'src/app/services/data-portfolio.service';
 
 @Component({
-  selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  selector: 'app-project-portfolio',
+  templateUrl: './project-portfolio.component.html',
+  styleUrls: ['./project-portfolio.component.css']
 })
-export class ProjectsComponent {
+export class ProjectPortfolioComponent {
 
   porti: any;
   portiList: any;
@@ -21,8 +21,8 @@ export class ProjectsComponent {
     });
   }
 
-  goToProject() {
-    this.router.navigate(['portfolio']);
+  goToHome() {
+    this.router.navigate(['home']);
   }
 
 }
