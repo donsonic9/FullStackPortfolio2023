@@ -61,7 +61,7 @@ section {
   font-size: 1.2em;
   text-align: center;
   /* font-family:'Times New Roman', Times, serif; */
-  color: var(--font-black);
+  color: var(--font-grey);
   margin: 5% 0;
 }
 
@@ -79,6 +79,11 @@ section {
   font-family:'Times New Roman', Times, serif;
   font-weight: 500;
   margin: 4% 0;
+}
+
+.infoextended p {
+  color: var(--font-grey);
+  font-size: 1.2em;
 }
 
 .infoextended p {

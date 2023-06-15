@@ -61,7 +61,7 @@ section {
   font-size: 1.2em;
   text-align: center;
   /* font-family:'Times New Roman', Times, serif; */
-  color: var(--font-black);
+  color: var(--font-grey);
   margin: 5% 0;
 }
 
@@ -83,6 +83,7 @@ section {
 
 .infoextended p {
   font-size: 1.2em;
+  color: var(--font-grey);
 }
 
 .skills {

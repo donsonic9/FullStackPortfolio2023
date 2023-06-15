@@ -29,22 +29,26 @@
         "image": "assets/images/pngwing.comlaptop21st.png",
         "desc": "My portfolio itself is considered by me as a project, since I had the chance to apply most of the new knowledge I've aquired as web developer. New design techniques, and a more refined version of older projects I've done in the past. ",
         "extendedDesc": "I am pleased to present my newly redesigned portfolio, which is a reflection of the hard work and invaluable experience I have gained throughout my career as a web developer. It is the result of continuous improvement, exploring new design approaches, and seeking optimal solutions. The design adopts a minimalistic yet effective approach, prioritizing mobile-first principles and user-friendly interactions to ensure a seamless browsing experience. I strive to provide the best possible user experience, and this portfolio is a testament to my ongoing commitment to excellence in web development.",
-        "href": "#",
+        "href": "https://alexander-repollo.web.app/home",
         "routerlink": "portfolio"
       },
       {
         "name": "Project co.work RH :",
         "image": "assets/images/pngwing.comlaptop22nd.png",
-        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, eligendi in tempore perspiciatis atque magni quisquam? Adipisci, ratione id? Nam unde incidunt pariatur quia, at ab ipsa cumque officiis assumenda!",
-        "extendedDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, eligendi in tempore perspiciatis atque magni quisquam? Adipisci, ratione id? Nam unde incidunt pariatur quia, at ab ipsa cumque officiis assumenda!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, eligendi in tempore perspiciatis atque magni quisquam? Adipisci, ratione id? Nam unde incidunt pariatur quia, at ab ipsa cumque officiis assumenda!",
+        "desc": "co.work RH is a human resources consultory that trusted me to create a simple, user-friendly web app in order to help their clients to satisfy their necessities. It's also my first project working side by side with the client, in order to create a unique product that matches their requirements.",
+        "extendedDesc": "After finishing my studies at #ArgentinaPrograma, a program made to form new web developers (more info about it in Argentina Programa's project), I was already looking for new opportunities and new ways to push myself a bit further with new challenges, and sooner than later, a relatively new HR consultory contacted me to create a web app that can be used by all kind of people, oriented for small, local buisness. As a recently graduated web developer, I thought that the knowledge I had, was enough to make an easy going project. But I was wrong.",
+        "extendedDesc2": "The project itself is a simple home page, with all the information and services offered by the consultory, every service has it's own page for the customer to request the service easly, by sending a pre-configured email to the consultory.",
+        "extendedDesc3": "Working side by side with a client means that you have to be prepared for the unexpected, be ready to change things on any moment, and overall, be very flexible. Since the project itself wasn't that hard, it thaught me to be way more concious about other things, not only code. To be more comprehensive with non-technical people, in order to explain them how web development works, and translate their requirements from non-technical language to technical language. And also to suggest better ideas for the project, in order to improuve the final product.",
+        "extendedDesc4": "This project thaught me to never underestimate a new challenge, and how to work with a customer in general terms, it was a great experience.",
         "href": "https://coworkrhconsultora.web.app/",
         "routerlink": "coworkrh"
       },
       {
         "name": "Argentina Programa's project:",
         "image": "assets/images/pngwing.comlaptop23rd.png",
-        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, eligendi in tempore perspiciatis atque magni quisquam? Adipisci, ratione id? Nam unde incidunt pariatur quia, at ab ipsa cumque officiis assumenda!",
-        "extendedDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, eligendi in tempore perspiciatis atque magni quisquam? Adipisci, ratione id? Nam unde incidunt pariatur quia, at ab ipsa cumque officiis assumenda!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, eligendi in tempore perspiciatis atque magni quisquam? Adipisci, ratione id? Nam unde incidunt pariatur quia, at ab ipsa cumque officiis assumenda!",
+        "desc": "#ArgentinaPrograma is a national program created to form people on different areas of the TI. This project is my very FIRST portfolio made within the requirements of the #YoProgramo division, which doesn't exist anymore, but back in time, it was required in order to pass the course, that the students create their own portfolio with a certain feature... ",
+        "extendedDesc": "This portfolio had to had the posibility to 'log In' and 'log out' as admin. Being possible to make CRUD (Create, Read, Update, Delete) with most of the information available there. It was a whole new challenge for me, since I didn't even knew most of the technologies we used there, being my first aproach to Angular, MySQL, Java, and Spring Boot, among others. The project works fine, but it takes a few moments to load the information, since we had to use free hosting services for everything. it was my first experience using hosting services and working on a real backend project.",
+        "extendedDesc2": "The backend const of 10 API Rest built by me using Java, and Spring Boot. Frontend was made using Angular and Bootstrap. And relational data-base was made using MySQL. This project has a special place on my carrer since it was the one with which I learned most of the things I know today.",
         "href": "https://arprograma-front-end-ds9.web.app/inicio",
         "routerlink": "arp"
       }
