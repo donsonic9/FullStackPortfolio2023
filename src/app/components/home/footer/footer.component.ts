@@ -13,7 +13,7 @@ export class FooterComponent {
   constructor (private dataporti:DataPortfolioService) { }
 
   ngOnInit(): void {
-    this.dataporti.obtenerDatos().subscribe(data => {
+    this.dataporti.getData().subscribe(data => {
       this.porti = data
     });
   }

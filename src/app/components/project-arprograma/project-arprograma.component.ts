@@ -15,7 +15,7 @@ export class ProjectARProgramaComponent {
   constructor (private dataporti:DataPortfolioService, private router:Router) { }
 
   ngOnInit(): void {
-    this.dataporti.obtenerDatos().subscribe(data => {
+    this.dataporti.getData().subscribe(data => {
       this.porti = data
       this.portiList = data.projects.proj
     });

@@ -14,7 +14,7 @@ export class NavbarComponent {
   constructor (private router:Router, private dataporti:DataPortfolioService) { }
 
   ngOnInit(): void {
-    this.dataporti.obtenerDatos().subscribe(data => {
+    this.dataporti.getData().subscribe(data => {
       this.porti = data
     });
   }
@@ -68,7 +68,6 @@ export class NavbarComponent {
     this.router.navigate(['']);
     document.getElementById("contactoid")?.scrollIntoView({behavior: 'smooth'});
   }
-
 
 
 }

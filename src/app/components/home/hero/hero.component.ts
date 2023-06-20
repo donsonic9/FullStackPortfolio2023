@@ -13,7 +13,7 @@ export class HeroComponent {
   constructor (private dataporti:DataPortfolioService) { }
 
   ngOnInit(): void {
-    this.dataporti.obtenerDatos().subscribe(data => {
+    this.dataporti.getData().subscribe(data => {
       this.porti = data
     });
   }
@@ -25,5 +25,17 @@ export class HeroComponent {
   toWorks() {
     document.getElementById("projectsid")?.scrollIntoView({behavior: 'smooth'});
   }
+
+  // Experimento
+
+  // changeES() {
+  //   this.dataporti.cambiarIdiomaES();
+  //   this.ngOnInit();
+  // }
+
+  // changeEN() {
+  //   this.dataporti.cambiarIdiomaEN();
+  //   this.ngOnInit();
+  // }
 
 }

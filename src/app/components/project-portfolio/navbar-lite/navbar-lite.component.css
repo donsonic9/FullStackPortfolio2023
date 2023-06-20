@@ -30,7 +30,7 @@
 }
 
 .navbar-collapse {
-  padding-right: 50px;
+  padding-right: 40px;
 }
 
 .nav-link {
@@ -50,4 +50,36 @@
   /* background-color: var(--shadow-4); */
   border-bottom: 3px solid var(--salmon);
   color: var(--salmon);
+}
+
+/* boton de idioma */
+
+.dropdown {
+  font-variant: small-caps;
+}
+
+.dropdown button {
+  color: var(--font-white);
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  font-size: 1.3em;
+}
+
+.dropdown i {
+  color: var(--font-white);
+}
+
+.dropdown-menu {
+  background-color: var(--black);
+  color: var(--font-white);
+}
+
+.dropdown-menu a {
+  color: var(--font-white);
+  letter-spacing: 2px;
+}
+
+.dropdown-menu a:hover {
+  color: var(--font-black);
+  font-weight: 600;
 }

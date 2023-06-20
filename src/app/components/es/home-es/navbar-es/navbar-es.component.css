@@ -1,0 +1,93 @@
+/*----------------------------------------- Navbar ---------------------------------------------*/
+
+.navbar {
+  width: 100%;
+  padding: 0px;
+  min-height: 60px;
+  /* background-color: var(--violet-color); */
+  /* background-color: var(--shadow-2); */
+  border-radius: 0%;
+  /* background-color: transparent !important; */
+  transition: all 0.2s linear;
+}
+
+.nav-logo {
+  margin: 20px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.nav-logo img {
+  height: 60px;
+}
+
+.navbar button:focus {
+  box-shadow: 0 0 0 transparent;
+}
+
+.navbar-toggler i {
+  /* border: 1px solid var(--light-blue-color); */
+  font-size: 1.5em;
+  color: var(--font-white);
+}
+
+.navbar-collapse {
+  padding-right: 40px;
+}
+
+.nav-link {
+  border: 3px solid transparent;
+  padding: 30px 30px;
+  margin: 0px 0px;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  color: var(--font-white);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  /* background-color: var(--shadow-4); */
+  border-bottom: 3px solid var(--salmon);
+  color: var(--salmon);
+}
+
+.navbar-black {
+  /* background-color: var(--shadow-6); */
+  background-color: var(--black);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+/* boton de idioma */
+
+.dropdown {
+  font-variant: small-caps;
+}
+
+.dropdown button {
+  color: var(--font-white);
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  font-size: 1.3em;
+}
+
+.dropdown i {
+  color: var(--font-white);
+}
+
+.dropdown-menu {
+  background-color: var(--black);
+  color: var(--font-white);
+}
+
+.dropdown-menu a {
+  color: var(--font-white);
+  letter-spacing: 2px;
+}
+
+.dropdown-menu a:hover {
+  color: var(--font-black);
+  font-weight: 600;
+}

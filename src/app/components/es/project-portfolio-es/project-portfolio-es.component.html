@@ -1,0 +1,37 @@
+<app-navbar-lite-es></app-navbar-lite-es>
+
+<section>
+  <div class="container">
+    <div class="textcontain col-12">
+      <h4 class="saludo" *ngIf="porti">{{porti.projects.saludo}}</h4>
+      <h2 class="mainsaludo" *ngIf="porti">{{portiList[0].name}}</h2>
+      <h3 class="maindesc" *ngIf="porti">{{portiList[0].desc}}</h3>
+    </div>
+    <div class="about col-12">
+      <img class="projectimage" [src]="portiList[0].image" alt="project's image">
+    </div>
+    <div class="infoextended">
+      <h3 *ngIf="porti">{{portiList[0].name}}</h3>
+      <p *ngIf="porti">{{portiList[0].extendedDesc}}</p>
+      <p *ngIf="porti">{{portiList[0].extendedDesc2}}</p>
+    </div>
+    <div class="skills col-12">
+      <h3>Tecnologías implementadas: </h3>
+      <div class="skillspan">
+        <span>html</span>
+        <span>css</span>
+        <span>typescript</span>
+        <span>bootstrap</span>
+        <span>angular</span>
+        <span>firebase</span>
+      </div>
+    </div>
+    <div class="buttons">
+      <a class="seelive" [href]="portiList[0].href" target="_blank">ver online</a>
+      <button (click)="goToHome()">volver</button>
+    </div>
+  </div>
+</section>
+
+<app-footer-es></app-footer-es>
+

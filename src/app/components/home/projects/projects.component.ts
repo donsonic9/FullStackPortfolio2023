@@ -15,14 +15,14 @@ export class ProjectsComponent {
   constructor (private dataporti:DataPortfolioService, private router:Router) { }
 
   ngOnInit(): void {
-    this.dataporti.obtenerDatos().subscribe(data => {
+    this.dataporti.getData().subscribe(data => {
       this.porti = data
       this.portiList = data.projects.proj
     });
   }
 
-  goToProject() {
-    this.router.navigate(['portfolio']);
-  }
+  // goToProject() {
+  //   this.router.navigate(['portfolio']);
+  // }
 
 }

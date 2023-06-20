@@ -1,6 +1,12 @@
 {
   "navbar": {
-    "img_navbar": "assets/images/AR-logo-v3-removebg-preview-navbar.png"
+    "img_navbar": "assets/images/AR-logo-v3-removebg-preview-navbar.png",
+    "boton1": "home",
+    "boton2": "about",
+    "boton3": "projects",
+    "boton4": "contact",
+    "idiomaES": "es/home",
+    "idiomaEN": "home"
   },
   "home": {
     "saludo": "welcome!",
@@ -14,10 +20,11 @@
     "mainsaludo": "About me!",
     "maindesc": "Get to know more about me",
     "aboutTitle": "Who I am",
-    "aboutDesc": "Hello! I'm Alex, a Full Stack Web Developer Jr. Born in New Jersey, USA, and rised in Buenos Aires. With a passion for new technologies, including Artificial Intelligence, cryptocurrencies, and more, I merge my interests and technical skills to create innovative web applications.",
-    "aboutDesc2": "On my free time, I like to research about cars, AI, and spend time with family and friends. I also like to work on my personal development, being self-criticism and self-motivation fundamental parts of my growth as a person.",
-    "aboutDesc3": "I am actively seeking my first IT opportunity to contribute, learn, and grow. As a passionate web developer, I'm eager to kick-start my career and apply my technical expertise. If you have a good oportunity, don't hesitate to contact me!",
-    "skillsTitle": "Skills"
+    "aboutDesc": "Hello! I'm Alex, a Full Stack Web Developer Jr. Born in New Jersey, USA, and rised in Buenos Aires. With a passion for new technologies, including Artificial Intelligence, cryptocurrencies, and more, I merge my interests and technical skills to create innovative, user-friendly, and responsive web applications.",
+    "aboutDesc2": "On my free time, I like to research about cars, AI, and spend time with family and friends. I also like to work on my personal development, being self-analisis and self-motivation fundamental parts of my growth as a person.",
+    "aboutDesc3": "I am actively looking for an opportunity to contribute, learn, and grow. As a passionate web developer, I'm eager to kick-start my career and apply my technical expertise. If you think I match your requirements, don't hesitate to contact me!",
+    "skillsTitle": "Skills",
+    "download": "download cv"
   },
   "projects": {
     "saludo": "works",
@@ -27,8 +34,9 @@
       {
         "name": "Alexander Repollo's Portfolio:",
         "image": "assets/images/pngwing.comlaptop21st.png",
-        "desc": "My portfolio itself is considered by me as a project, since I had the chance to apply most of the new knowledge I've aquired as web developer. New design techniques, and a more refined version of older projects I've done in the past. ",
+        "desc": "My portfolio itself is considered by me as a project, since I had the chance to apply most of the new knowledge I've aquired as web developer. New design techniques and a more refined version of previous projects bring my portfolio to new heights of quality. ",
         "extendedDesc": "I am pleased to present my newly redesigned portfolio, which is a reflection of the hard work and invaluable experience I have gained throughout my career as a web developer. It is the result of continuous improvement, exploring new design approaches, and seeking optimal solutions. The design adopts a minimalistic yet effective approach, prioritizing mobile-first principles and user-friendly interactions to ensure a seamless browsing experience. I strive to provide the best possible user experience, and this portfolio is a testament to my ongoing commitment to excellence in web development.",
+        "extendedDesc2": "Some of the challenges I've found in this project were easy to overcome, while others took me a few days to solve. The main challenge was to keep the app responsive and attractive for all screen sizes, from small mobile to large screens. In this project I've learned to work more effectively and quickly, and it was also the first one I did with the 'mobile-first' philosophy applied. As a result, I was able to create a product that successfully adapts to any device, while maintaining the balance and integrity without compromising functionality and esthetics.",
         "href": "https://alexander-repollo.web.app/home",
         "routerlink": "portfolio"
       },
@@ -37,16 +45,16 @@
         "image": "assets/images/pngwing.comlaptop22nd.png",
         "desc": "co.work RH is a human resources consultory that trusted me to create a simple, user-friendly web app in order to help their clients to satisfy their necessities. It's also my first project working side by side with the client, in order to create a unique product that matches their requirements.",
         "extendedDesc": "After finishing my studies at #ArgentinaPrograma, a program made to form new web developers (more info about it in Argentina Programa's project), I was already looking for new opportunities and new ways to push myself a bit further with new challenges, and sooner than later, a relatively new HR consultory contacted me to create a web app that can be used by all kind of people, oriented for small, local buisness. As a recently graduated web developer, I thought that the knowledge I had, was enough to make an easy going project. But I was wrong.",
-        "extendedDesc2": "The project itself is a simple home page, with all the information and services offered by the consultory, every service has it's own page for the customer to request the service easly, by sending a pre-configured email to the consultory.",
-        "extendedDesc3": "Working side by side with a client means that you have to be prepared for the unexpected, be ready to change things on any moment, and overall, be very flexible. Since the project itself wasn't that hard, it thaught me to be way more concious about other things, not only code. To be more comprehensive with non-technical people, in order to explain them how web development works, and translate their requirements from non-technical language to technical language. And also to suggest better ideas for the project, in order to improuve the final product.",
-        "extendedDesc4": "This project thaught me to never underestimate a new challenge, and how to work with a customer in general terms, it was a great experience.",
+        "extendedDesc2": "The project itself is a user-friendly page, with all the information and services offered by the consultory, every service has it's own page for the customer to request the service easly, by sending a pre-configured email to the consultory.",
+        "extendedDesc3": "Working side by side with a client means that you have to be prepared for the unexpected, be ready to change things on any moment, and overall, be very flexible. Since the project itself wasn't that hard on the code level, it was at an interpersonal level, since it thaught me to be way more concious about other things, not only code. It taught me to be more comprehensive with non-technical people, in order to explain them how web development works, and translate their requirements from non-technical language to technical language. And also to suggest better ideas for the project, in order to improuve the final product. Once the project was finished, it generated an increase on the customer's visibility, profesionalism, and overall better performance for the buisness.",
+        "extendedDesc4": "This project taught me to never underestimate a new challenge, and how to work with a customer in general terms, it was a great experience.",
         "href": "https://coworkrhconsultora.web.app/",
         "routerlink": "coworkrh"
       },
       {
         "name": "Argentina Programa's project:",
         "image": "assets/images/pngwing.comlaptop23rd.png",
-        "desc": "#ArgentinaPrograma is a national program created to form people on different areas of the TI. This project is my very FIRST portfolio made within the requirements of the #YoProgramo division, which doesn't exist anymore, but back in time, it was required in order to pass the course, that the students create their own portfolio with a certain feature... ",
+        "desc": "#ArgentinaPrograma is a national program created to train people in different areas of the IT. This project is my very FIRST portfolio made within the requirements of the #YoProgramo division, which doesn't exist anymore, but back in time, it was required in order to pass the course, that the students create their own portfolio with certain features.",
         "extendedDesc": "This portfolio had to had the posibility to 'log In' and 'log out' as admin. Being possible to make CRUD (Create, Read, Update, Delete) with most of the information available there. It was a whole new challenge for me, since I didn't even knew most of the technologies we used there, being my first aproach to Angular, MySQL, Java, and Spring Boot, among others. The project works fine, but it takes a few moments to load the information, since we had to use free hosting services for everything. it was my first experience using hosting services and working on a real backend project.",
         "extendedDesc2": "The backend const of 10 API Rest built by me using Java, and Spring Boot. Frontend was made using Angular and Bootstrap. And relational data-base was made using MySQL. This project has a special place on my carrer since it was the one with which I learned most of the things I know today.",
         "href": "https://arprograma-front-end-ds9.web.app/inicio",
@@ -56,7 +64,7 @@
   },
   "contact": {
     "image": "assets/images/AR-logo-v3-removebg-preview-navbar.png",
-    "maindesc": "Do you like what you see? let's get in touch and work together!",
+    "maindesc": "Let's work together! Feel free to get in contact on the following platforms",
     "wpp_url": "https://wa.link/3i9a08",
     "linkedin_url": "https://www.linkedin.com/in/alexander-repollo-5b47841ba/",
     "github_url": "https://github.com/donsonic9",

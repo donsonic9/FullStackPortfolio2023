@@ -14,6 +14,16 @@ import { ProjectCoworkrhComponent } from './components/project-coworkrh/project-
 import { ProjectARProgramaComponent } from './components/project-arprograma/project-arprograma.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarLiteComponent } from './components/project-portfolio/navbar-lite/navbar-lite.component';
+import { HomeEsComponent } from './components/es/home-es/home-es.component';
+import { HeroEsComponent } from './components/es/home-es/hero-es/hero-es.component';
+import { AboutEsComponent } from './components/es/home-es/about-es/about-es.component';
+import { ProjectsEsComponent } from './components/es/home-es/projects-es/projects-es.component';
+import { NavbarEsComponent } from './components/es/home-es/navbar-es/navbar-es.component';
+import { FooterEsComponent } from './components/es/home-es/footer-es/footer-es.component';
+import { ProjectArprogramaEsComponent } from './components/es/project-arprograma-es/project-arprograma-es.component';
+import { ProjectCoworkrhEsComponent } from './components/es/project-coworkrh-es/project-coworkrh-es.component';
+import { ProjectPortfolioEsComponent } from './components/es/project-portfolio-es/project-portfolio-es.component';
+import { NavbarLiteEsComponent } from './components/es/project-portfolio-es/navbar-lite-es/navbar-lite-es.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +37,17 @@ import { NavbarLiteComponent } from './components/project-portfolio/navbar-lite/
     ProjectPortfolioComponent,
     ProjectCoworkrhComponent,
     ProjectARProgramaComponent,
-    NavbarLiteComponent
+    NavbarLiteComponent,
+    HomeEsComponent,
+    HeroEsComponent,
+    AboutEsComponent,
+    ProjectsEsComponent,
+    NavbarEsComponent,
+    FooterEsComponent,
+    ProjectArprogramaEsComponent,
+    ProjectCoworkrhEsComponent,
+    ProjectPortfolioEsComponent,
+    NavbarLiteEsComponent
   ],
   imports: [
     BrowserModule,

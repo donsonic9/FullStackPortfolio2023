@@ -1,0 +1,41 @@
+<section id="aboutid">
+  <div class="container row">
+    <div class="textcontain">
+      <h4 *ngIf="porti" class="saludo">{{porti.about.saludo}}</h4>
+      <h2 *ngIf="porti" class="mainsaludo">{{porti.about.mainsaludo}}</h2>
+      <h3 *ngIf="porti" class="maindesc">{{porti.about.maindesc}}</h3>
+    </div>
+    <!-- <div class="imgprofile">
+      <img class="img-fluid" src="./assets/images/profile.jpg" alt="Alexander Repollo's image">
+    </div> -->
+    <div class="aboutskills row">
+      <div class="about col-12 col-md-6">
+        <h3 *ngIf="porti">{{porti.about.aboutTitle}}</h3>
+        <p *ngIf="porti">{{porti.about.aboutDesc}}</p>
+        <p *ngIf="porti">{{porti.about.aboutDesc2}}</p>
+        <p *ngIf="porti">{{porti.about.aboutDesc3}}</p>
+      </div>
+      <div class="skills col-12 col-md-5">
+        <h3 *ngIf="porti">{{porti.about.skillsTitle}}</h3>
+        <div class="skillspan">
+          <span>html</span>
+          <span>css</span>
+          <span>javascript</span>
+          <span>typescript</span>
+          <span>bootstrap</span>
+          <span>angular</span>
+          <span>mysql</span>
+          <span>java</span>
+          <span>spring boot</span>
+          <span>firebase</span>
+          <span>git</span>
+          <span>github</span>
+        </div>
+        <div class="cvpdf">
+          <a download="AlexanderRepolloCV2023" href="./assets/pdf/AlexanderRepolloCV2023.v7.4.pdf">{{porti.about.download}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
