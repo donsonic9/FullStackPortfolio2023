@@ -33,7 +33,7 @@
     "proj": [
       {
         "name": "Alexander Repollo's Portfolio:",
-        "image": "assets/images/pngwing.comlaptop21st.png",
+        "image": "assets/images/pngwing.comlaptop21st.webp",
         "desc": "My portfolio itself is considered by me as a project, since I had the chance to apply most of the new knowledge I've aquired as web developer. New design techniques and a more refined version of previous projects bring my portfolio to new heights of quality. ",
         "extendedDesc": "I am pleased to present my newly redesigned portfolio, which is a reflection of the hard work and invaluable experience I have gained throughout my career as a web developer. It is the result of continuous improvement, exploring new design approaches, and seeking optimal solutions. The design adopts a minimalistic yet effective approach, prioritizing mobile-first principles and user-friendly interactions to ensure a seamless browsing experience. I strive to provide the best possible user experience, and this portfolio is a testament to my ongoing commitment to excellence in web development.",
         "extendedDesc2": "Some of the challenges I've found in this project were easy to overcome, while others took me a few days to solve. The main challenge was to keep the app responsive and attractive for all screen sizes, from small mobile to large screens. In this project I've learned to work more effectively and quickly, and it was also the first one I did with the 'mobile-first' philosophy applied. As a result, I was able to create a product that successfully adapts to any device, while maintaining the balance and integrity without compromising functionality and esthetics.",
@@ -42,7 +42,7 @@
       },
       {
         "name": "Project co.work RH :",
-        "image": "assets/images/pngwing.comlaptop22nd.png",
+        "image": "assets/images/pngwing.comlaptop22nd.webp",
         "desc": "co.work RH is a human resources consultory that trusted me to create a simple, user-friendly web app in order to help their clients to satisfy their necessities. It's also my first project working side by side with the client, in order to create a unique product that matches their requirements.",
         "extendedDesc": "After finishing my studies at #ArgentinaPrograma, a program made to form new web developers (more info about it in Argentina Programa's project), I was already looking for new opportunities and new ways to push myself a bit further with new challenges, and sooner than later, a relatively new HR consultory contacted me to create a web app that can be used by all kind of people, oriented for small, local buisness. As a recently graduated web developer, I thought that the knowledge I had, was enough to make an easy going project. But I was wrong.",
         "extendedDesc2": "The project itself is a user-friendly page, with all the information and services offered by the consultory, every service has it's own page for the customer to request the service easly, by sending a pre-configured email to the consultory.",
@@ -53,7 +53,7 @@
       },
       {
         "name": "Argentina Programa's project:",
-        "image": "assets/images/pngwing.comlaptop23rd.png",
+        "image": "assets/images/pngwing.comlaptop23rd.webp",
         "desc": "#ArgentinaPrograma is a national program created to train people in different areas of the IT. This project is my very FIRST portfolio made within the requirements of the #YoProgramo division, which doesn't exist anymore, but back in time, it was required in order to pass the course, that the students create their own portfolio with certain features.",
         "extendedDesc": "This portfolio had to had the posibility to 'log In' and 'log out' as admin. Being possible to make CRUD (Create, Read, Update, Delete) with most of the information available there. It was a whole new challenge for me, since I didn't even knew most of the technologies we used there, being my first aproach to Angular, MySQL, Java, and Spring Boot, among others. The project works fine, but it takes a few moments to load the information, since we had to use free hosting services for everything. it was my first experience using hosting services and working on a real backend project.",
         "extendedDesc2": "The backend const of 10 API Rest built by me using Java, and Spring Boot. Frontend was made using Angular and Bootstrap. And relational data-base was made using MySQL. This project has a special place on my carrer since it was the one with which I learned most of the things I know today.",

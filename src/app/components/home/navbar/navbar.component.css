@@ -68,9 +68,16 @@
 
 .dropdown button {
   color: var(--font-white);
+  border-bottom: 3px solid transparent;
   font-variant: small-caps;
+  padding: 30px;
   letter-spacing: 2px;
   font-size: 1.3em;
+}
+
+.dropdown button:hover {
+  border-bottom: 3px solid var(--salmon);
+  color: var(--salmon);
 }
 
 .dropdown i {
@@ -80,11 +87,13 @@
 .dropdown-menu {
   background-color: var(--black);
   color: var(--font-white);
+  font-size: 1.2em;
 }
 
 .dropdown-menu a {
   color: var(--font-white);
   letter-spacing: 2px;
+  padding: 10px;
 }
 
 .dropdown-menu a:hover {
