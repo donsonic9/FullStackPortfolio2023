@@ -14,6 +14,9 @@
         <p *ngIf="porti">{{porti.about.aboutDesc}}</p>
         <p *ngIf="porti">{{porti.about.aboutDesc2}}</p>
         <p *ngIf="porti">{{porti.about.aboutDesc3}}</p>
+        <div class="contactaboutdiv">
+          <a (click)="toContacto()" class="contactabout">contactar</a>
+        </div>
       </div>
       <div class="skills col-12 col-md-5">
         <h3 *ngIf="porti">{{porti.about.skillsTitle}}</h3>
@@ -32,7 +35,7 @@
           <span>github</span>
         </div>
         <div class="cvpdf">
-          <a download="AlexanderRepolloCV2023" href="./assets/pdf/AlexanderRepolloCV2023.v7.4.pdf">{{porti.about.download}}</a>
+          <a download="AlexanderRepolloCV2023" href="./assets/pdf/AlexanderRepollo_CV2023_es.pdf">{{porti.about.download}}</a>
         </div>
       </div>
     </div>

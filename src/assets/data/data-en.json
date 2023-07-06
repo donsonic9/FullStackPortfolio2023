@@ -17,14 +17,14 @@
   },
   "about": {
     "saludo": "about",
-    "mainsaludo": "About me!",
-    "maindesc": "Get to know more about me",
-    "aboutTitle": "Who I am",
-    "aboutDesc": "Hello! I'm Alex, a Full Stack Web Developer Jr. Born in New Jersey, USA, and rised in Buenos Aires. With a passion for new technologies, including Artificial Intelligence, cryptocurrencies, and more, I merge my interests and technical skills to create innovative, user-friendly, and responsive web applications.",
+    "mainsaludo": "Personal information",
+    "maindesc": "Would you like to know me?",
+    "aboutTitle": "Allow me to introduce myself",
+    "aboutDesc": "Hello! I'm Alex, Full Stack Web Developer. Born in New Jersey, USA, and rised in Buenos Aires. With a passion for new technologies, including Artificial Intelligence, cryptocurrencies, and more, I merge my interests and technical skills to create innovative, user-friendly, and responsive web applications.",
     "aboutDesc2": "On my free time, I like to research about cars, AI, and spend time with family and friends. I also like to work on my personal development, being self-analisis and self-motivation fundamental parts of my growth as a person.",
-    "aboutDesc3": "I am actively looking for an opportunity to contribute, learn, and grow. As a passionate web developer, I'm eager to kick-start my career and apply my technical expertise. If you think I match your requirements, don't hesitate to contact me!",
+    "aboutDesc3": "I am constantly looking for new challenges to contribute with all my experience and energy. As a passionate web developer, giving up is not an option since practice makes perfect. If you think you have a place for me on your team, don't hesitate to get in touch!",
     "skillsTitle": "Skills",
-    "download": "download cv"
+    "download": "download resume"
   },
   "projects": {
     "saludo": "works",

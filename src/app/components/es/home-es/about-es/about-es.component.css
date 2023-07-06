@@ -118,7 +118,7 @@ section {
   margin: 10% auto;
 }
 
-.cvpdf a {
+.cvpdf a, .contactabout {
   /* width: 170px; */
   /* height: 50px; */
   padding: 3px 10px 5px 10px;
@@ -134,9 +134,16 @@ section {
   transition: all 0.2s linear;
 }
 
-.cvpdf a:hover {
+.cvpdf a:hover, .contactabout:hover {
   color: var(--font-black);
   background-color: var(--salmon);
+  cursor:pointer;
+}
+
+.contactaboutdiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /* ------------------------------------- Responsive Design ----------------------------------- */

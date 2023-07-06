@@ -4,6 +4,7 @@
       <h4 *ngIf="porti" class="saludo">{{porti.about.saludo}}</h4>
       <h2 *ngIf="porti" class="mainsaludo">{{porti.about.mainsaludo}}</h2>
       <h3 *ngIf="porti" class="maindesc">{{porti.about.maindesc}}</h3>
+      
     </div>
     <!-- <div class="imgprofile">
       <img class="img-fluid" src="./assets/images/profile.jpg" alt="Alexander Repollo's image">
@@ -14,6 +15,9 @@
         <p *ngIf="porti">{{porti.about.aboutDesc}}</p>
         <p *ngIf="porti">{{porti.about.aboutDesc2}}</p>
         <p *ngIf="porti">{{porti.about.aboutDesc3}}</p>
+        <div class="contactaboutdiv">
+          <a (click)="toContacto()" class="contactabout">get in touch</a>
+        </div>
       </div>
       <div class="skills col-12 col-md-5">
         <h3 *ngIf="porti">{{porti.about.skillsTitle}}</h3>
@@ -32,7 +36,7 @@
           <span>github</span>
         </div>
         <div class="cvpdf">
-          <a download="AlexanderRepolloCV2023" href="./assets/pdf/AlexanderRepolloCV2023.v7.4.pdf">{{porti.about.download}}</a>
+          <a download="AlexanderRepolloCV2023" href="./assets/pdf/AlexanderRepollo_CV2023_en.pdf">{{porti.about.download}}</a>
         </div>
       </div>
     </div>

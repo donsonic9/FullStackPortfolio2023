@@ -17,12 +17,12 @@
   },
   "about": {
     "saludo": "sobre mi",
-    "mainsaludo": "Quien soy",
-    "maindesc": "Te invito a conocer mas sobre mi",
-    "aboutTitle": "Quien soy",
-    "aboutDesc": "¡Hola! Soy Alex, Desarrollador Web Full Stack Jr. Nací en New Jersey, USA, y crecí en Buenos Aires. Con pasión por las nuevas tecnologías, incluida la inteligencia artificial, las criptomonedas y más, combino mis intereses y habilidades técnicas para crear aplicaciones web innovadoras, fáciles de usar, y adaptables a cualquier dispositivo.",
+    "mainsaludo": "Información personal",
+    "maindesc": "Quieres conocerme mas en profundidad?",
+    "aboutTitle": "Permíteme presentarme",
+    "aboutDesc": "¡Hola! Gusto en conocerte. Soy Alex, Desarrollador Web Full Stack, nací en New Jersey, USA, y crecí en Buenos Aires. Con pasión por las nuevas tecnologías, incluida la inteligencia artificial, las criptomonedas y más, combino mis intereses y habilidades técnicas para crear aplicaciones web innovadoras, fáciles de usar, y adaptables a cualquier dispositivo.",
     "aboutDesc2": "En mi tiempo libre, me gusta investigar sobre autos, IA y pasar tiempo con familiares y amigos. También me gusta trabajar en mi desarrollo personal, siendo el autoanálisis y la automotivación partes fundamentales de mi crecimiento como persona.",
-    "aboutDesc3": "Estoy buscando activamente una oportunidad para contribuir con mis habilidades, aprender y crecer. Como desarrollador web apasionado, estoy motivado por poner en marcha mi carrera y aplicar mi experiencia técnica. Si crees que cumplo con tus requisitos, ¡no dudes en contactarme!",
+    "aboutDesc3": "Estoy constantemente buscando nuevos desafíos para contribuir con toda mi experiencia y energía. Como desarrollador web apasionado, rendirme no es una opción, ya que la práctica hace al maestro. Si crees que tienes un lugar para mi en tu equipo,¡no dudes en contactarme!",
     "skillsTitle": "Habilidades técnicas",
     "download": "descargar cv"
   },
