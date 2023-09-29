@@ -1,0 +1,45 @@
+<!-- <p>project-arprograma-backend-es works!</p> -->
+<!-- <p>project-arprograma-backend works!</p> -->
+<app-navbar-lite></app-navbar-lite>
+
+<section>
+  <div class="container">
+    <div class="textcontain col-12">
+      <h4 class="saludo" *ngIf="porti">{{porti.projects.saludo}}</h4>
+      <h2 class="mainsaludo" *ngIf="porti">{{portiList[2].name}}</h2>
+      <h3 class="maindesc" *ngIf="porti">{{portiList[2].desc}}</h3>
+    </div>
+    <div class="about col-12">
+      <img class="projectimage" [src]="portiList[2].image" alt="project's image">
+    </div>
+    <div class="infoextended">
+      <h3 *ngIf="porti">{{portiList[2].name}}</h3>
+      <p *ngIf="porti">{{portiList[2].extendedDesc}}</p>
+      <p *ngIf="porti">Documentación: <a [href]="portiList[2].document" target="_blank">{{portiList[2].document}}</a></p>
+    </div>
+    <div class="skills col-12">
+      <h3>Tecnologías implementadas: </h3>
+      <div class="skillspan">
+        
+        <span>mysql</span>
+        <span>java</span>
+        <span>spring boot</span>
+        <span>postman</span>
+        <span>docker</span>
+        <span>render</span>
+        <span>swagger</span>
+      </div>
+    </div>
+    <div class="buttons">
+      <a class="seelive" [href]="portiList[2].href" target="_blank">ver online</a>
+      <a class="seelive" [href]="portiList[2].hrefgithub" target="_blank">ver github</a>
+      <button (click)="goToHome()">volver</button>
+    </div>
+  </div>
+</section>
+
+<app-footer></app-footer>
+
+
+
+

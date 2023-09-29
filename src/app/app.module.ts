@@ -24,6 +24,8 @@ import { ProjectArprogramaEsComponent } from './components/es/project-arprograma
 import { ProjectCoworkrhEsComponent } from './components/es/project-coworkrh-es/project-coworkrh-es.component';
 import { ProjectPortfolioEsComponent } from './components/es/project-portfolio-es/project-portfolio-es.component';
 import { NavbarLiteEsComponent } from './components/es/project-portfolio-es/navbar-lite-es/navbar-lite-es.component';
+import { ProjectArprogramaBackendComponent } from './components/project-arprograma-backend/project-arprograma-backend.component';
+import { ProjectArprogramaBackendEsComponent } from './components/es/project-arprograma-backend-es/project-arprograma-backend-es.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +49,9 @@ import { NavbarLiteEsComponent } from './components/es/project-portfolio-es/navb
     ProjectArprogramaEsComponent,
     ProjectCoworkrhEsComponent,
     ProjectPortfolioEsComponent,
-    NavbarLiteEsComponent
+    NavbarLiteEsComponent,
+    ProjectArprogramaBackendComponent,
+    ProjectArprogramaBackendEsComponent
   ],
   imports: [
     BrowserModule,

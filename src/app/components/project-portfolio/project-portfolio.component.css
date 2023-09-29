@@ -158,6 +158,17 @@ section {
 
 /* --------------------------- Responsive design -------------------------------------------- */
 
+@media screen and (max-width: 765px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    /* background-color: green; */
+  }
+}
+
 @media screen and (max-width: 575px) {
 
   .container {

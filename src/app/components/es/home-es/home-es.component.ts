@@ -11,12 +11,12 @@ export class HomeEsComponent implements OnInit {
 
   constructor( @Inject(DOCUMENT) private document: Document, private title:Title, private meta:Meta) {
     title.setTitle('Alexander Repollo | Desarrollador Web Full Stack');
-    
+    this.updateMetaTags();
   }
 
   ngOnInit() {
     this.document.documentElement.lang = 'es';
-    this.updateMetaTags();
+    
   }
 
   updateMetaTags(): void {

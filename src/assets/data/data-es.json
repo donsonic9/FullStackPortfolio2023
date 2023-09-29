@@ -18,11 +18,12 @@
   "about": {
     "saludo": "sobre mi",
     "mainsaludo": "Información personal",
-    "maindesc": "Quieres conocerme mas en profundidad?",
+    "maindesc": "Te invito a conocerme",
     "aboutTitle": "Permíteme presentarme",
-    "aboutDesc": "¡Hola! Gusto en conocerte. Soy Alex, Desarrollador Web Full Stack, nací en New Jersey, USA, y crecí en Buenos Aires. Con pasión por las nuevas tecnologías, incluida la inteligencia artificial, las criptomonedas y más, combino mis intereses y habilidades técnicas para crear aplicaciones web innovadoras, fáciles de usar, y adaptables a cualquier dispositivo.",
+    "aboutDesc": "¡Hola! Soy Alex, Desarrollador Web Full Stack, me dedico a crear aplicaciones web orientadas al cliente, fáciles de usar, y adaptables a cualquier dispositivo, aplicando todos mis conocimientos y habilidades para crear productos únicos. ",
     "aboutDesc2": "En mi tiempo libre, me gusta investigar sobre autos, IA y pasar tiempo con familiares y amigos. También me gusta trabajar en mi desarrollo personal, siendo el autoanálisis y la automotivación partes fundamentales de mi crecimiento como persona.",
-    "aboutDesc3": "Estoy constantemente buscando nuevos desafíos para contribuir con toda mi experiencia y energía. Como desarrollador web apasionado, rendirme no es una opción, ya que la práctica hace al maestro. Si crees que tienes un lugar para mi en tu equipo,¡no dudes en contactarme!",
+    "aboutDesc3": "Estoy constantemente aprendiendo nuevas habilidades, mejorando constantemente la calidad en mis proyectos. Te gustaría trabajar juntos? Contactame!",
+    "softskillsTitle": "Habilidades blandas",
     "skillsTitle": "Habilidades técnicas",
     "download": "descargar cv"
   },
@@ -37,27 +38,40 @@
         "desc": "Considero a mi portafolio como un proyecto en sí mismo, ya que tuve la oportunidad de aplicar la mayor parte de los nuevos conocimientos que adquirí como desarrollador web. Nuevas técnicas de diseño y, una versión más refinada de proyectos anteriores le dan a mi portfolio nuevas cotas de calidad.",
         "extendedDesc": "Me complace presentar mi portfolio recientemente rediseñado, que es un reflejo del arduo trabajo y la invaluable experiencia que he adquirido a lo largo de mi carrera como desarrollador web. Es el resultado de la mejora continua, la exploración de nuevos enfoques de diseño y la búsqueda de soluciones óptimas. El diseño adopta un enfoque minimalista pero efectivo, priorizando el principio de diseño 'mobile-first' y las interacciones fáciles de usar para garantizar una experiencia de navegación optima. Me esfuerzo por brindar la mejor experiencia de usuario posible, y este portfolio es un testimonio de mi compromiso continuo con la excelencia en el desarrollo web.",
         "extendedDesc2": "Algunos de los desafíos que encontré en este proyecto fueron fáciles de superar, mientras que otros me llevaron unos días para resolverlos. El principal desafío era mantener la aplicación adaptable y atractiva para todos los tamaños de pantalla, desde un móvil pequeño hasta pantallas grandes. En este proyecto aprendí a trabajar de manera más efectiva y rápida, y también, fue el primero que hice con la filosofía 'mobile-first' aplicada. Como resultado, logre crear un producto que se adapta exitosamente a cualquier dispositivo, manteniendo el balance y la integridad sin dejar de lado la funcionalidad y la estética.",
-        "href": "https://alexander-repollo.web.app/home",
+        "href": "https://alexanderrepollo.com.ar/home",
+        "hrefgithub": "https://github.com/donsonic9/FullStackPortfolio2023",
         "routerlink": "es/portfolio"
       },
       {
         "name": "Proyecto co.work RH :",
         "image": "assets/images/pngwing.comlaptop22nd.webp",
-        "desc": "co.work RH es una consultora de recursos humanos que confió en mí para crear una aplicación web sencilla y fácil de usar para ayudar a sus clientes a satisfacer sus necesidades. También es mi primer proyecto trabajando codo con codo con el cliente para crear un producto único que se ajuste a sus necesidades.",
-        "extendedDesc": "Después de terminar mis estudios en #ArgentinaPrograma, un programa del estado hecho para formar nuevos desarrolladores web (más información sobre esto en el proyecto de Argentina Programa), estaba buscando nuevas oportunidades y nuevas formas de mejorar con más y nuevos desafíos, y en poco tiempo, una consultora de recursos humanos relativamente nueva me contactó para crear una aplicación web que pueda ser utilizada por todo tipo de personas, orientada a pequeñas empresas locales. Como desarrollador web recién graduado, pensé que el conocimiento que tenía era suficiente para hacer un proyecto sencillo. Pero estaba equivocado.",
+        "desc": "Front-end app creada para co.work RH, una consultora de recursos humanos que confió en mí para crear una aplicación web sencilla y fácil de usar para ayudar a sus clientes a satisfacer sus necesidades.",
+        "extendedDesc": "Después de terminar mis estudios en #ArgentinaPrograma, un programa del estado hecho para formar nuevos desarrolladores web (más información sobre esto en el proyecto de Argentina Programa), estaba buscando nuevas oportunidades y nuevas formas de mejorar con más y nuevos desafíos, y en poco tiempo, una consultora de recursos humanos relativamente nueva me contactó para crear una aplicación web que pueda ser utilizada por todo tipo de personas, orientada a pequeñas empresas locales.",
         "extendedDesc2": "El proyecto en sí es una página fácil de usar, con toda la información y servicios que ofrece la consultoría, cada servicio tiene su propia página para que el cliente solicite el servicio fácilmente, enviando un correo electrónico preconfigurado a la consultoría.",
         "extendedDesc3": "Trabajar codo a codo con un cliente significa que tienes que estar preparado para lo inesperado, estar listo para cambiar las cosas en cualquier momento y, sobre todo, ser muy flexible. Dado que el proyecto en sí no fue tan difícil a nivel código, si lo fue a nivel interpersonal, me enseñó a ser mucho más consciente de otras cosas, no solo del código. Ser más comprensivo con las personas no técnicas, para explicarles cómo funciona el desarrollo web y traducir sus requisitos de un lenguaje no técnico a un lenguaje técnico. Y también para sugerir mejores ideas para el proyecto, con el fin de mejorar el producto final. Una vez concluido el proyecto, se logró aumentar la visibilidad del cliente y darle un nivel de profesionalismo y rendimiento  superior al negocio.",
         "extendedDesc4": "Este proyecto me enseñó a nunca subestimar un nuevo desafío y cómo trabajar con un cliente en términos generales, fue una gran experiencia.",
         "href": "https://coworkrhconsultora.web.app/",
+        "hrefgithub": "https://github.com/donsonic9/Proyecto-co.work-RH/tree/master",
         "routerlink": "es/coworkrh"
+      },
+      {
+        "name": "CRUD APIs Backend (Java & Spring Boot)",
+        "image": "assets/images/pngwing.comlaptop24th.png",
+        "desc": "Backend para el proyecto full stack 'Argentina Programa'. Consta de un grupo de 10 Rest APIs construidas con Java, JPA, y Spring Boot, con su Dockerfile para puesta en producción en Render, y documentación con OpenAPI (Swagger).",
+        "extendedDesc": "Este proyecto me permitio aplicar todos mis conocimientos en Java adquiridos hasta ese momento, practicando como hacer APIs y entendiendo como funcionan. Otras tecnologías utilizadas en el proyecto son Postman, para testear cada endpoint y asegurarme que todo anda correctamente, MySQL como base de datos, entre otros.",
+        "href": "https://portfolio-backend-g1r7.onrender.com",
+        "document": "https://portfolio-backend-g1r7.onrender.com/doc/swagger-ui/index.html#/",
+        "hrefgithub": "https://github.com/donsonic9/Portfolio-BackEnd",
+        "routerlink": "es/arpbck"
       },
       {
         "name": "Proyecto #Argentina Programa:",
         "image": "assets/images/pngwing.comlaptop23rd.webp",
-        "desc": "#ArgentinaPrograma es un programa nacional creado para capacitar personas en diferentes áreas de las TI. Este proyecto fue mi PRIMER portafolio hecho dentro de los requisitos de la división #YoProgramo, que ya no existe, pero en ese momento, se requería para aprobar el curso, que los estudiantes crearan su propio portafolio con ciertas características.",
+        "desc": "Primera app full stack creada completamente por mí. Este es un portfolio que se conecta a un backend y una BBDD para cambiar la información con el fin de actualizar el portafolio, utilizando formularios reactivos, autenticación de Firebase y más.",
         "extendedDesc": "Este portfolio tenía que tener la posibilidad de 'iniciar sesión' y 'cerrar sesión' como administrador. Siendo posible realizar ABML (Alta, Baja, Modificación, Lectura) con la mayor parte de la información disponible allí. Fue todo un reto para mí, ya que ni siquiera conocía la mayoría de las tecnologías que usábamos allí, siendo mi primer acercamiento a Angular, MySQL, Java y Spring Boot, entre otros. El proyecto funciona bien, pero tarda unos momentos en cargar la información, ya que tuvimos que usar servicios de hosting gratuitos para todo. Fue mi primera experiencia usando servicios de hosting y trabajando en un proyecto backend real.",
         "extendedDesc2": "El backend consta de 10 API Rest creadas por mí usando Java y Spring Boot. El frontend se realizó con Angular y Bootstrap. Y la base de datos relacional se hizo usando MySQL. Este proyecto tiene un lugar especial en mi carrera ya que fue con el que aprendí la mayoría de las cosas que sé hoy.",
         "href": "https://arprograma-front-end-ds9.web.app/inicio",
+        "hrefgithub": "https://github.com/donsonic9/Portfolio-FrontEnd-AngularArgPro",
         "routerlink": "es/arp"
       }
     ]

@@ -57,21 +57,23 @@ section {
   color: var(--font-black);
 }
 
-/* .imgprofile {
-  text-align: center;
-  margin-bottom: 5%;
+.imgprofile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgprofile img {
   min-height: 250px;
-  max-height: 300px;
-} */
+  max-height: 25vh;
+  margin-bottom: 20px;
+}
 
 .aboutskills {
   height: 100%;
   display: flex;
   flex-direction: row;
-  align-items: first baseline;
+  align-items: top;
   justify-content: space-between;
   flex-wrap: wrap;
   /* background-color: yellow; */

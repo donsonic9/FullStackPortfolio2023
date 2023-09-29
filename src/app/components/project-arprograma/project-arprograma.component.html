@@ -4,16 +4,19 @@
   <div class="container">
     <div class="textcontain col-12">
       <h4 class="saludo" *ngIf="porti">{{porti.projects.saludo}}</h4>
-      <h2 class="mainsaludo" *ngIf="porti">{{portiList[2].name}}</h2>
-      <h3 class="maindesc" *ngIf="porti">{{portiList[2].desc}}</h3>
+      <h2 class="mainsaludo" *ngIf="porti">{{portiList[3].name}}</h2>
+      <h3 class="maindesc" *ngIf="porti">{{portiList[3].desc}}</h3>
     </div>
     <div class="about col-12">
-      <img class="projectimage" [src]="portiList[2].image" alt="project's image">
+      <img class="projectimage" [src]="portiList[3].image" alt="project's image">
     </div>
     <div class="infoextended">
-      <h3 *ngIf="porti">{{portiList[2].name}}</h3>
-      <p *ngIf="porti">{{portiList[2].extendedDesc}}</p>
-      <p *ngIf="porti">{{portiList[2].extendedDesc2}}</p>
+      <h3 *ngIf="porti">{{portiList[3].name}}</h3>
+      <p *ngIf="porti">{{portiList[3].extendedDesc}}</p>
+      <div class="videodi">
+        <iframe src="https://www.youtube.com/embed/NjIkBcmNOs4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p *ngIf="porti">{{portiList[3].extendedDesc2}}</p>
     </div>
     <div class="skills col-12">
       <h3>Implemented Technologies: </h3>
@@ -30,7 +33,8 @@
       </div>
     </div>
     <div class="buttons">
-      <a class="seelive" [href]="portiList[2].href" target="_blank">see live</a>
+      <a class="seelive" [href]="portiList[3].href" target="_blank">see live</a>
+      <a class="seelive" [href]="portiList[3].hrefgithub" target="_blank">see github </a>
       <button (click)="goToHome()">go back</button>
     </div>
   </div>

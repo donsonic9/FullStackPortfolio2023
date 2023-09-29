@@ -10,9 +10,12 @@
     </div> -->
     <div class="aboutskills row">
       <div class="about col-12 col-md-6">
+        <div class="imgprofile">
+          <img class="img-fluid" src="./assets/images/profile.jpg" alt="Alexander Repollo's image">
+        </div>
         <h3 *ngIf="porti">{{porti.about.aboutTitle}}</h3>
         <p *ngIf="porti">{{porti.about.aboutDesc}}</p>
-        <p *ngIf="porti">{{porti.about.aboutDesc2}}</p>
+        <!-- <p *ngIf="porti">{{porti.about.aboutDesc2}}</p> -->
         <p *ngIf="porti">{{porti.about.aboutDesc3}}</p>
         <div class="contactaboutdiv">
           <a (click)="toContacto()" class="contactabout">contactar</a>
@@ -35,7 +38,7 @@
           <span>github</span>
         </div>
         <div class="cvpdf">
-          <a download="AlexanderRepolloCV2023" href="./assets/pdf/AlexanderRepollo_CV2023_es.pdf">{{porti.about.download}}</a>
+          <a download="AlexanderRepolloCV2023" href="./assets/pdf/AlexanderRepollo_CV_092023_es.pdf">{{porti.about.download}}</a>
         </div>
       </div>
     </div>
