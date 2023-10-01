@@ -20,12 +20,13 @@ export class HomeEsComponent implements OnInit {
   }
 
   updateMetaTags(): void {
-    const newDescription = "Bienvenido/a a mi portfolio! Soy Alex, y aquí vas a poder encontrar todos mis proyectos, información personal y mas. No dudes en contactarme!";
+    const newDescription = "Bienvenido/a a mi portfolio! Soy Alex, desarrollador web full stack, aquí vas a poder encontrar todos mis proyectos, información personal y mas. No dudes en contactarme!";
     const newImage = "https://alexander-repollo.web.app/assets/images/AR-logo-alt-ogimage.png";
 
     this.meta.updateTag({ name:"description", content: newDescription});
     this.meta.updateTag({ property:"og:description", content: newDescription});
     this.meta.updateTag({ property:"og:image", content: newImage});
+    this.meta.updateTag({ property:"twitter:description", content: newDescription});
   }
 }
 
