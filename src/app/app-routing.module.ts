@@ -13,13 +13,11 @@ import { ProjectArprogramaBackendEsComponent } from './components/es/project-arp
 
 const routes: Routes = [
   { path: "", component: HomeComponent},
-  { path: 'home', component:HomeComponent},
   { path: 'portfolio', component: ProjectPortfolioComponent},
   { path: 'coworkrh', component: ProjectCoworkrhComponent},
   { path: 'arp', component: ProjectARProgramaComponent},
   { path: 'arpbck', component: ProjectArprogramaBackendComponent},
   { path: 'es', component: HomeEsComponent},
-  { path: 'es/home', component: HomeEsComponent},
   { path: 'es/portfolio', component: ProjectPortfolioEsComponent},
   { path: 'es/coworkrh', component: ProjectCoworkrhEsComponent},
   { path: 'es/arp', component: ProjectArprogramaEsComponent},

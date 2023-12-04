@@ -5,8 +5,8 @@
     "boton2": "acerca de",
     "boton3": "proyectos",
     "boton4": "contacto",
-    "idiomaES": "es/home",
-    "idiomaEN": "home"
+    "idiomaES": "es/",
+    "idiomaEN": ""
   },
   "home": {
     "saludo": "bienvenido!",
@@ -38,7 +38,7 @@
         "desc": "Considero a mi portafolio como un proyecto en sí mismo, ya que tuve la oportunidad de aplicar la mayor parte de los nuevos conocimientos que adquirí como desarrollador web. Nuevas técnicas de diseño y, una versión más refinada de proyectos anteriores le dan a mi portfolio nuevas cotas de calidad.",
         "extendedDesc": "Me complace presentar mi portfolio recientemente rediseñado, que es un reflejo del arduo trabajo y la invaluable experiencia que he adquirido a lo largo de mi carrera como desarrollador web. Es el resultado de la mejora continua, la exploración de nuevos enfoques de diseño y la búsqueda de soluciones óptimas. El diseño adopta un enfoque minimalista pero efectivo, priorizando el principio de diseño 'mobile-first' y las interacciones fáciles de usar para garantizar una experiencia de navegación optima. Me esfuerzo por brindar la mejor experiencia de usuario posible, y este portfolio es un testimonio de mi compromiso continuo con la excelencia en el desarrollo web.",
         "extendedDesc2": "Algunos de los desafíos que encontré en este proyecto fueron fáciles de superar, mientras que otros me llevaron unos días para resolverlos. El principal desafío era mantener la aplicación adaptable y atractiva para todos los tamaños de pantalla, desde un móvil pequeño hasta pantallas grandes. En este proyecto aprendí a trabajar de manera más efectiva y rápida, y también, fue el primero que hice con la filosofía 'mobile-first' aplicada. Como resultado, logre crear un producto que se adapta exitosamente a cualquier dispositivo, manteniendo el balance y la integridad sin dejar de lado la funcionalidad y la estética.",
-        "href": "https://alexanderrepollo.com.ar/home",
+        "href": "https://alexanderrepollo.com.ar/es",
         "hrefgithub": "https://github.com/donsonic9/FullStackPortfolio2023",
         "routerlink": "es/portfolio"
       },

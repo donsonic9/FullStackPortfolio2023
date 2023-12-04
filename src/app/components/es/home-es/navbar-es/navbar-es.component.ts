@@ -50,22 +50,22 @@ export class NavbarEsComponent {
 
   // las funciones "to" son para linkear los botones de la navbar a las secciones de la pagina.
   toTop() {
-    this.router.navigate(['es/home']);
+    this.router.navigate(['es']);
     document.getElementById("topid")?.scrollIntoView({behavior: 'smooth'});
   }
 
   toAbout() {
-    this.router.navigate(['es/home']);
+    this.router.navigate(['es']);
     document.getElementById("aboutid")?.scrollIntoView({behavior: 'smooth'});
   }
 
   toWorks() {
-    this.router.navigate(['es/home']);
+    this.router.navigate(['es']);
     document.getElementById("projectsid")?.scrollIntoView({behavior: 'smooth'});
   }
 
   toContacto() {
-    this.router.navigate(['es/home']);
+    this.router.navigate(['es']);
     document.getElementById("contactoid")?.scrollIntoView({behavior: 'smooth'});
   }
 

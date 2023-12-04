@@ -5,8 +5,8 @@
     "boton2": "about",
     "boton3": "projects",
     "boton4": "contact",
-    "idiomaES": "es/home",
-    "idiomaEN": "home"
+    "idiomaES": "es/",
+    "idiomaEN": ""
   },
   "home": {
     "saludo": "welcome!",
@@ -37,7 +37,7 @@
         "desc": "My portfolio itself is considered by me as a project, since I had the chance to apply most of the new knowledge I've aquired as web developer. New design techniques and a more refined version of previous projects bring my portfolio to new heights of quality. ",
         "extendedDesc": "I am pleased to present my newly redesigned portfolio, which is a reflection of the hard work and invaluable experience I have gained throughout my career as a web developer. It is the result of continuous improvement, exploring new design approaches, and seeking optimal solutions. The design adopts a minimalistic yet effective approach, prioritizing mobile-first principles and user-friendly interactions to ensure a seamless browsing experience. I strive to provide the best possible user experience, and this portfolio is a testament to my ongoing commitment to excellence in web development.",
         "extendedDesc2": "Some of the challenges I've found in this project were easy to overcome, while others took me a few days to solve. The main challenge was to keep the app responsive and attractive for all screen sizes, from small mobile to large screens. In this project I've learned to work more effectively and quickly, and it was also the first one I did with the 'mobile-first' philosophy applied. As a result, I was able to create a product that successfully adapts to any device, while maintaining the balance and integrity without compromising functionality and esthetics.",
-        "href": "https://alexanderrepollo.com.ar/home",
+        "href": "https://alexanderrepollo.com.ar/",
         "hrefgithub": "https://github.com/donsonic9/FullStackPortfolio2023",
         "routerlink": "portfolio"
       },

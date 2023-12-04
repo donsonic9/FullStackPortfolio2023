@@ -27,7 +27,7 @@ export class ProjectArprogramaEsComponent implements OnInit{
   }
 
   goToHome() {
-    this.router.navigate(['es/home']);
+    this.router.navigate(['es']);
   }
 
 }

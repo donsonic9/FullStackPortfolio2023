@@ -27,7 +27,7 @@ export class ProjectPortfolioEsComponent implements OnInit{
   }
 
   goToHome() {
-    this.router.navigate(['es/home']);
+    this.router.navigate(['es']);
   }
 
 }
