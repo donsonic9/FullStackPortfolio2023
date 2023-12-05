@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "PortfolioAlexanderRepollo2023:build:production"
+              "buildTarget": "PortfolioAlexanderRepollo2023:build:production"
             },
             "development": {
-              "browserTarget": "PortfolioAlexanderRepollo2023:build:development"
+              "buildTarget": "PortfolioAlexanderRepollo2023:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PortfolioAlexanderRepollo2023:build"
+            "buildTarget": "PortfolioAlexanderRepollo2023:build"
           }
         },
         "test": {

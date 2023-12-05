@@ -1,45 +1,56 @@
-  <!-- Footer / Contact -->
-  <footer id="contactoid">
-    <div class="banner"></div>
-    <div class="container">
-      <div class="contactologo">
-        <img *ngIf="porti" [src]="porti.contact.image" alt="Alexander Repollo Logo" loading="lazy">
-      </div>
-      <div class="textcontain col-12">
-        <!-- <h4 class="saludo">contact</h4> -->
-        <!-- <h2 class="mainsaludo">Get in touch!</h2> -->
-        <h3 class="maindesc" *ngIf="porti">{{porti.contact.maindesc}}</h3>
-      </div>
-      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
-          <a *ngIf="porti" [href]="porti.contact.wpp_url" target="_blank"
-         title="Mandame un WhatsApp!">
-            <i class="bi bi-whatsapp"></i>
-          </a>
-          <a *ngIf="porti" [href]="porti.contact.linkedin_url" target="_blank" title="Añadime a tu red en LinkedIn!">
-            <i class="bi bi-linkedin"></i>
-          </a>
-          <a *ngIf="porti" [href]="porti.contact.github_url" target="_blank" title="Seguime en Github!">
-            <i class="bi bi-github"></i>
-          </a>
-          <a *ngIf="porti" [href]="porti.contact.instagram_url" target="_blank" title="Seguime en Instagram!">
-            <i class="bi bi-instagram"></i>
-          </a>
-          <a *ngIf="porti" [href]="porti.contact.email" target="_blank" title="Enviame un  email!">
-            <i class="bi bi-envelope"></i>
-          </a>
-      </div>
-      <!-- Boton para volver al inicio de la página -->
-      <div class="boton-up iconos-redes-sociales d-flex flex-row-reverse">
-        <a aria-current="page" title="Click para volver al inicio" (click)="toTopid()"><i class="bi bi-arrow-up-circle"></i>
-        </a>
-      </div>
-      <div class="derechos-de-autor">Alexander Repollo 2023 &#169;</div>
-      <br>
-      <div class="creador">
-        Website created by <a [href]="porti.contact.linkedin_url" target="_blank">Alexander Repollo</a>
-      </div>
-
+<!-- Footer / Contact -->
+<footer id="contactoid">
+  <div class="banner"></div>
+  <div class="container">
+    <div class="contactologo">
+      @if (porti) {
+        <img [src]="porti.contact.image" alt="Alexander Repollo Logo" loading="lazy">
+      }
     </div>
-  </footer>
-
-
+    <div class="textcontain col-12">
+      <!-- <h4 class="saludo">contact</h4> -->
+      <!-- <h2 class="mainsaludo">Get in touch!</h2> -->
+      @if (porti) {
+        <h3 class="maindesc">{{porti.contact.maindesc}}</h3>
+      }
+    </div>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      @if (porti) {
+        <a [href]="porti.contact.wpp_url" target="_blank"
+          title="Mandame un WhatsApp!">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+      }
+      @if (porti) {
+        <a [href]="porti.contact.linkedin_url" target="_blank" title="Añadime a tu red en LinkedIn!">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      }
+      @if (porti) {
+        <a [href]="porti.contact.github_url" target="_blank" title="Seguime en Github!">
+          <i class="bi bi-github"></i>
+        </a>
+      }
+      @if (porti) {
+        <a [href]="porti.contact.instagram_url" target="_blank" title="Seguime en Instagram!">
+          <i class="bi bi-instagram"></i>
+        </a>
+      }
+      @if (porti) {
+        <a [href]="porti.contact.email" target="_blank" title="Enviame un  email!">
+          <i class="bi bi-envelope"></i>
+        </a>
+      }
+    </div>
+    <!-- Boton para volver al inicio de la página -->
+    <div class="boton-up iconos-redes-sociales d-flex flex-row-reverse">
+      <a aria-current="page" title="Click para volver al inicio" (click)="toTopid()"><i class="bi bi-arrow-up-circle"></i>
+    </a>
+  </div>
+  <div class="derechos-de-autor">Alexander Repollo 2023 &#169;</div>
+  <br>
+    <div class="creador">
+      Website created by <a [href]="porti.contact.linkedin_url" target="_blank">Alexander Repollo</a>
+    </div>
+  </div>
+</footer>

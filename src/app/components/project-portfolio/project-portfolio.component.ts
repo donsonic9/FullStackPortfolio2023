@@ -2,11 +2,15 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { DataPortfolioService } from 'src/app/services/data-portfolio.service';
+import { NavbarLiteComponent } from './navbar-lite/navbar-lite.component';
+import { FooterComponent } from '../home/footer/footer.component';
 
 @Component({
   selector: 'app-project-portfolio',
   templateUrl: './project-portfolio.component.html',
-  styleUrls: ['./project-portfolio.component.css']
+  styleUrls: ['./project-portfolio.component.css'],
+  standalone: true,
+  imports: [NavbarLiteComponent, FooterComponent]
 })
 export class ProjectPortfolioComponent {
 

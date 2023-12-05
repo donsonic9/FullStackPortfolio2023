@@ -1,25 +1,35 @@
 <!-- <p>project-arprograma-backend works!</p> -->
 <app-navbar-lite></app-navbar-lite>
-
 <section>
   <div class="container">
     <div class="textcontain col-12">
-      <h4 class="saludo" *ngIf="porti">{{porti.projects.saludo}}</h4>
-      <h2 class="mainsaludo" *ngIf="porti">{{portiList[2].name}}</h2>
-      <h3 class="maindesc" *ngIf="porti">{{portiList[2].desc}}</h3>
+      @if (porti) {
+        <h4 class="saludo">{{porti.projects.saludo}}</h4>
+      }
+      @if (porti) {
+        <h2 class="mainsaludo">{{portiList[2].name}}</h2>
+      }
+      @if (porti) {
+        <h3 class="maindesc">{{portiList[2].desc}}</h3>
+      }
     </div>
     <div class="about col-12">
       <img class="projectimage" [src]="portiList[2].image" alt="project's image">
     </div>
     <div class="infoextended">
-      <h3 *ngIf="porti">{{portiList[2].name}}</h3>
-      <p *ngIf="porti">{{portiList[2].extendedDesc}}</p>
-      <p *ngIf="porti">Documentation: <a [href]="portiList[2].document" target="_blank">{{portiList[2].document}}</a></p>
+      @if (porti) {
+        <h3>{{portiList[2].name}}</h3>
+      }
+      @if (porti) {
+        <p>{{portiList[2].extendedDesc}}</p>
+      }
+      @if (porti) {
+        <p>Documentation: <a [href]="portiList[2].document" target="_blank">{{portiList[2].document}}</a></p>
+      }
     </div>
     <div class="skills col-12">
       <h3>Implemented Technologies: </h3>
       <div class="skillspan">
-        
         <span>mysql</span>
         <span>java</span>
         <span>spring boot</span>
@@ -36,8 +46,4 @@
     </div>
   </div>
 </section>
-
 <app-footer></app-footer>
-
-
-

@@ -3,11 +3,15 @@ import { Router } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { DOCUMENT } from '@angular/common';
 import { DataPortfolioService } from 'src/app/services/data-portfolio.service';
+import { NavbarLiteEsComponent } from './navbar-lite-es/navbar-lite-es.component';
+import { FooterEsComponent } from '../home-es/footer-es/footer-es.component';
 
 @Component({
   selector: 'app-project-portfolio-es',
   templateUrl: './project-portfolio-es.component.html',
-  styleUrls: ['./project-portfolio-es.component.css']
+  styleUrls: ['./project-portfolio-es.component.css'],
+  standalone: true,
+  imports: [NavbarLiteEsComponent, FooterEsComponent]
 })
 export class ProjectPortfolioEsComponent implements OnInit{
 

@@ -1,26 +1,32 @@
 <section id="projectsid">
   <div class="container">
     <div class="textcontain col-12">
-      <h4 class="saludo" *ngIf="porti" >{{porti.projects.saludo}}</h4>
-      <h2 class="mainsaludo" *ngIf="porti">{{porti.projects.mainsaludo}}</h2>
-      <h3 class="maindesc" *ngIf="porti">{{porti.projects.maindesc}}</h3>
+      @if (porti) {
+        <h4 class="saludo" >{{porti.projects.saludo}}</h4>
+      }
+      @if (porti) {
+        <h2 class="mainsaludo">{{porti.projects.mainsaludo}}</h2>
+      }
+      @if (porti) {
+        <h3 class="maindesc">{{porti.projects.maindesc}}</h3>
+      }
     </div>
-    <div class="projectsin col-12" *ngFor="let proy of portiList">
-
-      <div class="projects row col-12">
-        <div class="about col-12 col-md-7">
-          <img class="projectimage" [src]="proy.image" alt="project's image">
-        </div>
-        <div class="infoproject col-12 col-md-5">
-          <h3 >{{proy.name}}</h3>
-          <p >{{proy.desc}}</p>
-          <div class="seemore">
-            <!-- <button (click)="goToProject()">see more</button> -->
-            <a [href]="proy.routerlink">see more</a>
+    @for (proy of portiList; track proy) {
+      <div class="projectsin col-12">
+        <div class="projects row col-12">
+          <div class="about col-12 col-md-7">
+            <img class="projectimage" [src]="proy.image" alt="project's image">
+          </div>
+          <div class="infoproject col-12 col-md-5">
+            <h3 >{{proy.name}}</h3>
+            <p >{{proy.desc}}</p>
+            <div class="seemore">
+              <!-- <button (click)="goToProject()">see more</button> -->
+              <a [href]="proy.routerlink">see more</a>
+            </div>
           </div>
         </div>
       </div>
-     
-    </div>
+    }
   </div>
 </section>

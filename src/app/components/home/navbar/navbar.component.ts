@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
 import { DataPortfolioService } from 'src/app/services/data-portfolio.service';
@@ -5,7 +6,9 @@ import { DataPortfolioService } from 'src/app/services/data-portfolio.service';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  styleUrls: ['./navbar.component.css'],
+  standalone: true,
+  imports: [CommonModule]
 })
 export class NavbarComponent {
 

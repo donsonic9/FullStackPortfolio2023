@@ -5,7 +5,9 @@ import { DataPortfolioService } from 'src/app/services/data-portfolio.service';
 @Component({
   selector: 'app-navbar-lite-es',
   templateUrl: './navbar-lite-es.component.html',
-  styleUrls: ['./navbar-lite-es.component.css']
+  styleUrls: ['./navbar-lite-es.component.css'],
+  standalone: true,
+  imports: []
 })
 export class NavbarLiteEsComponent {
 

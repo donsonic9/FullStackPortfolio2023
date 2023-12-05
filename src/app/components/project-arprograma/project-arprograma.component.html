@@ -1,22 +1,33 @@
 <app-navbar-lite></app-navbar-lite>
-
 <section>
   <div class="container">
     <div class="textcontain col-12">
-      <h4 class="saludo" *ngIf="porti">{{porti.projects.saludo}}</h4>
-      <h2 class="mainsaludo" *ngIf="porti">{{portiList[3].name}}</h2>
-      <h3 class="maindesc" *ngIf="porti">{{portiList[3].desc}}</h3>
+      @if (porti) {
+        <h4 class="saludo">{{porti.projects.saludo}}</h4>
+      }
+      @if (porti) {
+        <h2 class="mainsaludo">{{portiList[3].name}}</h2>
+      }
+      @if (porti) {
+        <h3 class="maindesc">{{portiList[3].desc}}</h3>
+      }
     </div>
     <div class="about col-12">
       <img class="projectimage" [src]="portiList[3].image" alt="project's image">
     </div>
     <div class="infoextended">
-      <h3 *ngIf="porti">{{portiList[3].name}}</h3>
-      <p *ngIf="porti">{{portiList[3].extendedDesc}}</p>
+      @if (porti) {
+        <h3>{{portiList[3].name}}</h3>
+      }
+      @if (porti) {
+        <p>{{portiList[3].extendedDesc}}</p>
+      }
       <div class="videodi">
         <iframe src="https://www.youtube.com/embed/NjIkBcmNOs4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-      <p *ngIf="porti">{{portiList[3].extendedDesc2}}</p>
+      @if (porti) {
+        <p>{{portiList[3].extendedDesc2}}</p>
+      }
     </div>
     <div class="skills col-12">
       <h3>Implemented Technologies: </h3>
@@ -39,7 +50,4 @@
     </div>
   </div>
 </section>
-
 <app-footer></app-footer>
-
-

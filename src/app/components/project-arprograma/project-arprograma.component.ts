@@ -2,11 +2,15 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { DataPortfolioService } from 'src/app/services/data-portfolio.service';
+import { NavbarLiteComponent } from '../project-portfolio/navbar-lite/navbar-lite.component';
+import { FooterComponent } from '../home/footer/footer.component';
 
 @Component({
   selector: 'app-project-arprograma',
   templateUrl: './project-arprograma.component.html',
-  styleUrls: ['./project-arprograma.component.css']
+  styleUrls: ['./project-arprograma.component.css'],
+  standalone: true,
+  imports: [NavbarLiteComponent, FooterComponent]
 })
 export class ProjectARProgramaComponent {
 

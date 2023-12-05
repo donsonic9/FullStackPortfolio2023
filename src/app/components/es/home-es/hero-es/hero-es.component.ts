@@ -4,7 +4,9 @@ import { DataPortfolioService } from 'src/app/services/data-portfolio.service';
 @Component({
   selector: 'app-hero-es',
   templateUrl: './hero-es.component.html',
-  styleUrls: ['./hero-es.component.css']
+  styleUrls: ['./hero-es.component.css'],
+  standalone: true,
+  imports: []
 })
 export class HeroEsComponent {
 

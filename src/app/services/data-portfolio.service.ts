@@ -3,7 +3,7 @@ import { HttpClient} from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class DataPortfolioService {
 
@@ -22,15 +22,5 @@ export class DataPortfolioService {
   public getData(): Observable<any> {
     return this.http.get(this.ENjson);
   }
-
-  // public cambiarIdiomaES() {
-  //   this.language = this.ESjson;
-  //   this.obtenerDatos();
-  // }
-
-  // public cambiarIdiomaEN() {
-  //   this.language = this.ENjson;
-  //   this.obtenerDatos();
-  // }
 
 }

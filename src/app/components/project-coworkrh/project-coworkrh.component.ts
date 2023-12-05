@@ -2,11 +2,15 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { DataPortfolioService } from 'src/app/services/data-portfolio.service';
+import { NavbarLiteComponent } from '../project-portfolio/navbar-lite/navbar-lite.component';
+import { FooterComponent } from '../home/footer/footer.component';
 
 @Component({
   selector: 'app-project-coworkrh',
   templateUrl: './project-coworkrh.component.html',
-  styleUrls: ['./project-coworkrh.component.css']
+  styleUrls: ['./project-coworkrh.component.css'],
+  standalone: true,
+  imports: [NavbarLiteComponent, FooterComponent]
 })
 export class ProjectCoworkrhComponent {
 

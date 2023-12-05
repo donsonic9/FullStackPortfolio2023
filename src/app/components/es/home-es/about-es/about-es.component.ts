@@ -5,7 +5,9 @@ import { DataPortfolioService } from 'src/app/services/data-portfolio.service';
 @Component({
   selector: 'app-about-es',
   templateUrl: './about-es.component.html',
-  styleUrls: ['./about-es.component.css']
+  styleUrls: ['./about-es.component.css'],
+  standalone: true,
+  imports: []
 })
 export class AboutEsComponent {
 

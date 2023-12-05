@@ -1,21 +1,36 @@
 <app-navbar-lite></app-navbar-lite>
-
 <section>
   <div class="container">
     <div class="textcontain col-12">
-      <h4 class="saludo" *ngIf="porti">{{porti.projects.saludo}}</h4>
-      <h2 class="mainsaludo" *ngIf="porti">{{portiList[1].name}}</h2>
-      <h3 class="maindesc" *ngIf="porti">{{portiList[1].desc}}</h3>
+      @if (porti) {
+        <h4 class="saludo">{{porti.projects.saludo}}</h4>
+      }
+      @if (porti) {
+        <h2 class="mainsaludo">{{portiList[1].name}}</h2>
+      }
+      @if (porti) {
+        <h3 class="maindesc">{{portiList[1].desc}}</h3>
+      }
     </div>
     <div class="about col-12">
       <img class="projectimage" [src]="portiList[1].image" alt="project's image">
     </div>
     <div class="infoextended">
-      <h3 *ngIf="porti">{{portiList[1].name}}</h3>
-      <p *ngIf="porti">{{portiList[1].extendedDesc}}</p>
-      <p *ngIf="porti">{{portiList[1].extendedDesc2}}</p>
-      <p *ngIf="porti">{{portiList[1].extendedDesc3}}</p>
-      <p *ngIf="porti">{{portiList[1].extendedDesc4}}</p>
+      @if (porti) {
+        <h3>{{portiList[1].name}}</h3>
+      }
+      @if (porti) {
+        <p>{{portiList[1].extendedDesc}}</p>
+      }
+      @if (porti) {
+        <p>{{portiList[1].extendedDesc2}}</p>
+      }
+      @if (porti) {
+        <p>{{portiList[1].extendedDesc3}}</p>
+      }
+      @if (porti) {
+        <p>{{portiList[1].extendedDesc4}}</p>
+      }
     </div>
     <div class="skills col-12">
       <h3>Implemented Technologies: </h3>
@@ -35,6 +50,4 @@
     </div>
   </div>
 </section>
-
 <app-footer></app-footer>
-

@@ -1,36 +1,33 @@
 
-  <!-- <navbar>botones de navgeacion a la derecha. FIJA</navbar> -->
-  <nav class="navbar navbar-expand-sm fixed-top">
-    
-    <div class="container-fluid">
-      <a class="nav-logo" (click)="onReload()">
-        <img *ngIf="porti" [src]="porti.navbar.img_navbar" alt="Alexander Repollo logo" loading="lazy">
-      </a>
-      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-        aria-label="Toggle navigation" >
-        <i class="bi bi-list"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link" (click)="toTop(); " role="button" href="#navbarNavAltMarkup"  data-bs-toggle="collapse" aria-expanded="false" aria-controls="navbarNavAltMarkup">{{porti.navbar.boton1}}</a>
-          <a class="nav-link" (click)="toAbout(); " role="button" href="#navbarNavAltMarkup"  data-bs-toggle="collapse" aria-expanded="false" aria-controls="navbarNavAltMarkup">{{porti.navbar.boton2}}</a>
-          <a class="nav-link" (click)="toWorks(); " role="button" href="#navbarNavAltMarkup"  data-bs-toggle="collapse" aria-expanded="false" aria-controls="navbarNavAltMarkup">{{porti.navbar.boton3}}</a>
-          <a class="nav-link" (click)="toContacto(); " role="button" href="#navbarNavAltMarkup"  data-bs-toggle="collapse" aria-expanded="false" aria-controls="navbarNavAltMarkup">{{porti.navbar.boton4}}</a>
-          <div class="dropdown">
-            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-               es
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item" [href]="porti.navbar.idiomaEN">english</a></li>
-              <li><a class="dropdown-item" [href]="porti.navbar.idiomaES">español</a></li>
-            </ul>
-          </div>
+<!-- <navbar>botones de navgeacion a la derecha. FIJA</navbar> -->
+<nav class="navbar navbar-expand-sm fixed-top">
+  <div class="container-fluid">
+    <a class="nav-logo" (click)="onReload()">
+      @if (porti) {
+        <img [src]="porti.navbar.img_navbar" alt="Alexander Repollo logo" loading="lazy">
+      }
+    </a>
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+      aria-label="Toggle navigation" >
+      <i class="bi bi-list"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" (click)="toTop(); " role="button" href="#navbarNavAltMarkup"  data-bs-toggle="collapse" aria-expanded="false" aria-controls="navbarNavAltMarkup">{{porti.navbar.boton1}}</a>
+        <a class="nav-link" (click)="toAbout(); " role="button" href="#navbarNavAltMarkup"  data-bs-toggle="collapse" aria-expanded="false" aria-controls="navbarNavAltMarkup">{{porti.navbar.boton2}}</a>
+        <a class="nav-link" (click)="toWorks(); " role="button" href="#navbarNavAltMarkup"  data-bs-toggle="collapse" aria-expanded="false" aria-controls="navbarNavAltMarkup">{{porti.navbar.boton3}}</a>
+        <a class="nav-link" (click)="toContacto(); " role="button" href="#navbarNavAltMarkup"  data-bs-toggle="collapse" aria-expanded="false" aria-controls="navbarNavAltMarkup">{{porti.navbar.boton4}}</a>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            es
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" [href]="porti.navbar.idiomaEN">english</a></li>
+            <li><a class="dropdown-item" [href]="porti.navbar.idiomaES">español</a></li>
+          </ul>
         </div>
-
       </div>
     </div>
-  </nav>
-
-
-
+  </div>
+</nav>

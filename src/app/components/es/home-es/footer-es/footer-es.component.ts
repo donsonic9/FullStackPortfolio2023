@@ -4,7 +4,9 @@ import { DataPortfolioService } from 'src/app/services/data-portfolio.service';
 @Component({
   selector: 'app-footer-es',
   templateUrl: './footer-es.component.html',
-  styleUrls: ['./footer-es.component.css']
+  styleUrls: ['./footer-es.component.css'],
+  standalone: true,
+  imports: []
 })
 export class FooterEsComponent {
 
